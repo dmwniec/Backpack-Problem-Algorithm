@@ -1,0 +1,60 @@
+﻿<Window x:Class="ProblemPlecakowy.MatrixValues"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProblemPlecakowy"
+        mc:Ignorable="d"
+        Title="MatrixValues" Height="154.774" Width="240.403" Background="#FFE88686">
+    <Grid Margin="0,-2,367,216" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform ScaleY="-1"/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Button Content="Anuluj" HorizontalAlignment="Left" Height="40" Margin="120,-123,-225,0" VerticalAlignment="Top" Width="105" RenderTransformOrigin="0.5,0.5" Foreground="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" OpacityMask="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Click="Close">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Ok" HorizontalAlignment="Left" Height="40" Margin="2,-122,-107,0" VerticalAlignment="Top" Width="105" RenderTransformOrigin="0.5,0.5" Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" Click="Ok">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" TextWrapping="Wrap" Width="67" Height="58" Margin="147,-69,-214,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" FontSize="48"  >
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Ilość &#xD;&#xA;przedmiotów" HorizontalAlignment="Left" Height="77" Margin="8,-85,-141,0" VerticalAlignment="Top" Width="133" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" FontSize="20">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+
+    </Grid>
+</Window>
